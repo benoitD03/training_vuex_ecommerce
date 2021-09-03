@@ -131,6 +131,18 @@
       "price": "18",
       "image": "https://images-na.ssl-images-amazon.com/images/I/81FJuBqBAWL.jpg",
       "id": "11"
+    },
+    {
+      "title": "Le personal MBA",
+      "author": {
+        "firstName": "Josh",
+        "lastName": "Kaufman"
+      },
+      "publisher": "Alisio",
+      "year": "2010",
+      "price": "27,00",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71eZutGO-IL.jpg",
+      "id": "12"
     }
   ],
   "cart": []
