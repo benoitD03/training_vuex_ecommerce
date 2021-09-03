@@ -11,6 +11,9 @@ export default new Vuex.Store({
   mutations: {
     GET_PRODUCTS(state, allProducts) {
       state.products = allProducts;
+    },
+    CREATE_PRODUCT(state, product) {
+      state.products = [product, ...state.products];
     }
   },
   actions: {
@@ -20,6 +23,12 @@ export default new Vuex.Store({
           commit("GET_PRODUCTS", res.data)
         })
         .catch(err => console.log(err))
+    },
+    createProduct({ commit }, product) {
+      productService.createProduct(product)
+        .then(() => {
+          commit("CREATE_PRODUCT", product)
+        })
     }
   },
 });
