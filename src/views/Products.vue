@@ -11,14 +11,14 @@
           <img :src="product.image" class="img-fluid rounded-start" />
         </div>
         <div class="col-md-8">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h5 class="card-title">{{ product.title }}</h5>
             <p class="card-title">
               {{ product.author.firstName }} + {{ product.author.lastName }}
             </p>
             <p class="card-title">{{ product.year }}</p>
             <p class="card-title">{{ product.price }} €</p>
-            <button class="btn btn-primary">Ajouter au panier</button>
+            <button @click="addToCart(product)" class="btn btn-primary">Ajouter au panier</button>
           </div>
         </div>
       </div>
@@ -36,6 +36,11 @@ export default {
       return this.$store.state.products;
     },
   },
+  methods: {
+      addToCart(product) {
+          this.$store.dispatch("addToCart", product);
+      }
+  }
 };
 </script>
 

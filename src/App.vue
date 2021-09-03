@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/contact">Contact</router-link> |
       <router-link to="/admin">Admin</router-link> 
-      <span><i class="fas fa-shopping-cart"></i> Panier</span>
+      <span><router-link to="/cart"><i class="fas fa-shopping-cart"></i> Panier 0</router-link></span>
     </div>
     <router-view />
   </div>
