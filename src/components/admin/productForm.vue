@@ -2,7 +2,7 @@
   <form @submit.prevent="create">
   <div class="mb-3">
     <label for="id" class="form-label">identifiant</label>
-    <input type="number" class="form-control" id="id" v-model="book.id">
+    <input type="number" class="form-control" id="id" v-model="book.id" required>
   </div>
 
   <div class="mb-3">
@@ -12,14 +12,14 @@
 
   <div class="mb-3">
     <label for="title" class="form-label">Titre</label>
-    <input type="text" class="form-control" id="title" v-model="book.title">
+    <input type="text" class="form-control" id="title" v-model="book.title" required>
   </div>
 
   <div class="mb-3 d-flex">
     <label for="authorFirstName" class="form-label">Prénom Auteur</label>
-    <input type="text" class="form-control" id="authorFirstName" v-model="book.author.firstName">
+    <input type="text" class="form-control" id="authorFirstName" v-model="book.author.firstName" required>
     <label for="authorLastName" class="form-label">Nom Auteur</label>
-    <input type="text" class="form-control" id="authorLastName" v-model="book.author.lastName">
+    <input type="text" class="form-control" id="authorLastName" v-model="book.author.lastName" required>
   </div>
 
   <div class="mb-3">
@@ -34,7 +34,7 @@
 
   <div class="mb-3">
     <label for="price" class="form-label">Prix</label>
-    <input type="text" class="form-control" id="price" v-model="book.price">
+    <input type="text" class="form-control" id="price" v-model="book.price" required>
   </div>
  
  

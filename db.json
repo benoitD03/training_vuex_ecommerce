@@ -119,6 +119,18 @@
       "price": "19,90",
       "image": "https://images-na.ssl-images-amazon.com/images/I/71xNxZZrVtL.jpg",
       "id": "10"
+    },
+    {
+      "title": "Une vie choisie",
+      "author": {
+        "firstName": "Marc",
+        "lastName": "Simoncini"
+      },
+      "publisher": "Grasset",
+      "year": "2018",
+      "price": "18",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81FJuBqBAWL.jpg",
+      "id": "11"
     }
   ],
   "cart": []
