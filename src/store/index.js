@@ -64,6 +64,14 @@ export default new Vuex.Store({
   getters: {
     getCart(state) {
       return state.cart;
+    },
+    getNumberProductsInCart(state) {
+      if (!state.cart.products) return 0;
+      //Sur chaque élément de state.cart.products, on prend sa propriété quantity et on l'ajoute dans numberProducts.
+      const numberProducts = state.cart.products.reduce((acc, curr) => {
+        return acc + curr.quantity;
+      },0);
+      return numberProducts;
     }
   }
 });
