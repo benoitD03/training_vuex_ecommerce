@@ -1,7 +1,8 @@
 <template>
   <div>
       <h1 class="text-center my-5">Votre panier</h1>
-    <div v-for="product in cart" :key="product.id" class="d-flex product my-3">
+    <div v-for="product in cart.products" :key="product.id" class="d-flex product my-3">
+      <p class="my-auto">{{ product.quantity }}</p>
       <img :src="product.image" alt="" />
       <p class="my-auto">{{ product.title }}</p>
       <p class="my-auto">{{ product.price }} €</p>

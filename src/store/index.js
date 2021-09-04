@@ -20,8 +20,8 @@ export default new Vuex.Store({
     CREATE_PRODUCT(state, product) {
       state.products = [product, ...state.products];
     },
-    ADD_TO_CART(state, product) {
-      state.cart = [product, ...state.cart];
+    ADD_TO_CART(state, cartLocalStorage) {
+      state.cart = cartLocalStorage;
     }
   },
   actions: {
@@ -54,14 +54,10 @@ export default new Vuex.Store({
     addToCart({ commit }, product) {
       productService.addToCart(product)
         .then(() => {
-          commit("ADD_TO_CART", product)
+          commit("ADD_TO_CART", JSON.parse(localStorage.getItem("vuex-training-cart")))
         })
         .catch(err => {
-          const error = {
-            date : new Date(),
-            message: `Récupération des produits échouée : ${err.message}`
-          }
-          commit("GET_ERROR", error);
+         console.log(err);
         })
     }
   },

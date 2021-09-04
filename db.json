@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "title": "JavaScript Patterns: Build Better Applications with Coding and Design Patterns",
+      "title": "JavaScript Patterns",
       "author": {
         "lastName": "Stefanov",
         "firstName": "Stoyan"
@@ -145,54 +145,5 @@
       "id": "12"
     }
   ],
-  "cart": [
-    {
-      "id": 2,
-      "title": "JavaScript Patterns: Build Better Applications with Coding and Design Patterns",
-      "author": {
-        "lastName": "Stefanov",
-        "firstName": "Stoyan"
-      },
-      "publisher": "O'Reilly Media",
-      "year": 2010,
-      "price": 29.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BSiphz7AL._SL200_.jpg"
-    },
-    {
-      "id": 3,
-      "title": "JavaScript: The Good Parts",
-      "author": {
-        "lastName": "Crockford",
-        "firstName": "Douglas"
-      },
-      "publisher": "O'Reilly Media",
-      "year": 2008,
-      "price": 29.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SL200_.jpg"
-    },
-    {
-      "id": 1,
-      "title": "TOUT JavaScript 2e edition",
-      "author": {
-        "lastName": "Hondermarck",
-        "firstName": "Olivier"
-      },
-      "publisher": "Dunod",
-      "year": 2019,
-      "price": 29.9,
-      "image": "https://www.hachette.fr/sites/default/files/images/livres/couv/9782100814305-001-T.jpeg"
-    },
-    {
-      "id": 5,
-      "title": "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
-      "author": {
-        "lastName": "Haverbeke",
-        "firstName": "Marijn"
-      },
-      "publisher": "No Starch Press",
-      "year": 2018,
-      "price": 39.95,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51I9naPg55L._SL200_.jpg"
-    }
-  ]
+  "cart": []
 }
