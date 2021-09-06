@@ -6,6 +6,9 @@ export default {
     getProduct() {
         return axios.get(`${baseUrl}/products`);
     },
+    getOneProduct(id) {
+        return axios.get(`${baseUrl}/products/${id}`);
+    },
     createProduct(book) {
         return axios.post(`${baseUrl}/products`, book);
     },

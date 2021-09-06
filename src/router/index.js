@@ -28,11 +28,6 @@ const routes = [
     name: "Cart",
     component: Cart
   }
-  // {
-  //   path: "/admin/product-add",
-  //   name: "productAdd",
-  //   component: productAdd
-  // }
 ];
 
 const router = new VueRouter({

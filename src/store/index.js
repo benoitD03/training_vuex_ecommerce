@@ -8,11 +8,15 @@ export default new Vuex.Store({
   state: {
     products: [],
     errors: [],
-    cart: []
+    cart: [],
+    oneProduct : []
   },
   mutations: {
     GET_PRODUCTS(state, allProducts) {
       state.products = allProducts;
+    },
+    GET_ONE_PRODUCT(state, product) {
+      state.oneProduct = product;
     },
     GET_ERROR(state, error) {
       state.errors = [error, ...state.errors];
@@ -37,6 +41,14 @@ export default new Vuex.Store({
           }
           commit("GET_ERROR", error);
         })
+    },
+    getOneProduct({ commit }, id) {
+      productService.getOneProduct(id)
+        .then(res => {
+          commit ("GET_ONE_PRODUCT", res.data)
+          console.log(res.data);
+        })
+        .catch(err => console.log(err))
     },
     createProduct({ commit }, product) {
       productService.createProduct(product)
