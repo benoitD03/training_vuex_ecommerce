@@ -4,8 +4,8 @@
     <img :src="oneProduct.image" alt="product image">
     <p>Année de publication : {{ oneProduct.year }}</p>
     <p>Prix : {{ oneProduct.price }} €</p>
-    <button @click="addToCart(oneProduct)" class="btn btn-primary">
-              Ajouter au panier
+    <button @click="addToCart(oneProduct)" class="btn">
+              <i class="fas fa-shopping-cart"></i> Ajouter au panier
             </button>
   </div>
 </template>
@@ -26,5 +26,12 @@ export default {
 <style scoped>
 img {
   width: 400px;
+}
+.btn {
+  background: #42b983;
+  font-weight: bold;
+}
+.btn:hover {
+  color: #f1f1f1;
 }
 </style>

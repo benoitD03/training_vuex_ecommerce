@@ -59,5 +59,15 @@ export default {
             localStorage.setItem("vuex-training-cart", JSON.stringify(cart));
             resolve(cart);
         })
-    }
+    },
+    // sumProductsInCart() {
+    //     return new Promise(resolve => {
+    //         const products = JSON.parse(localStorage.getItem("vuex-training-cart")).products;
+    //         const totalPriceArray = [...products.price * products.quantity];
+    //         console.log(totalPriceArray);
+    //         let totalPrice = totalPriceArray.reduce((acc, curr) => acc + curr);
+    //         console.log(totalPrice);
+    //         resolve(totalPrice);
+    //     })
+    // }
 }

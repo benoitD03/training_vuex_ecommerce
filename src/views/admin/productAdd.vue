@@ -48,12 +48,14 @@ export default {
 
 <style scoped>
 .addButton {
-  /* background: #42b983; */
   background: #333;
   font-weight: bold;
   color: #f1f1f1;
 }
 .addButton:hover {
   color: #42b983;
+}
+.modal-header {
+  background: #42b983;
 }
 </style>

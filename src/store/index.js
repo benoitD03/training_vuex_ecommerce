@@ -96,6 +96,15 @@ export default new Vuex.Store({
         return acc + curr.quantity;
       },0);
       return numberProducts;
+    },
+    getTotalPrice(state) {
+      if (!state.cart.products) return 0;
+      const products = state.cart.products;
+            let totalPrice = products.reduce((acc, curr) => {
+              return acc + (curr.quantity * curr.price);
+            }, 0);
+            console.log(totalPrice);
+            return totalPrice.toFixed(2);
     }
   }
 });

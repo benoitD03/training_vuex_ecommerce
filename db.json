@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "title": "Learning JavaScript Design Patterns",
+      "title": "JavaScript Design Patterns",
       "author": {
         "lastName": "Osmani",
         "firstName": "Addy"
@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "title": "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming",
+      "title": "Eloquent JavaScript",
       "author": {
         "lastName": "Haverbeke",
         "firstName": "Marijn"
@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "title": "Secrets of the JavaScript Ninja, Second Edition",
+      "title": "The JavaScript Ninja",
       "author": {
         "lastName": "Resig",
         "firstName": "John"
@@ -74,7 +74,7 @@
     },
     {
       "id": 7,
-      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "title": "Clean Code",
       "author": {
         "lastName": "Martin",
         "firstName": "Robert C."
@@ -83,18 +83,6 @@
       "year": 2008,
       "price": 34.47,
       "image": "https://images-na.ssl-images-amazon.com/images/I/41TINACY3hL._SL200_.jpg"
-    },
-    {
-      "id": 8,
-      "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
-      "author": {
-        "lastName": "Gamma",
-        "firstName": "Erich "
-      },
-      "publisher": "Prentice Hall",
-      "year": 2008,
-      "price": 34.47,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SL200_.jpg"
     },
     {
       "title": "Deep Work",
