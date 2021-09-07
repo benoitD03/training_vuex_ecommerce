@@ -104,7 +104,7 @@
       },
       "publisher": "Alisio",
       "year": "2016",
-      "price": "22,50",
+      "price": 22.50,
       "image": "https://images-na.ssl-images-amazon.com/images/I/41-O+AeCpsL._SX312_BO1,204,203,200_.jpg",
       "id": "9"
     },
@@ -116,7 +116,7 @@
       },
       "publisher": "Leduc",
       "year": "2020",
-      "price": "19,90",
+      "price": 19.90,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71xNxZZrVtL.jpg",
       "id": "10"
     },
@@ -128,7 +128,7 @@
       },
       "publisher": "Grasset",
       "year": "2018",
-      "price": "18",
+      "price": 18,
       "image": "https://images-na.ssl-images-amazon.com/images/I/81FJuBqBAWL.jpg",
       "id": "11"
     },
@@ -140,7 +140,7 @@
       },
       "publisher": "Alisio",
       "year": "2010",
-      "price": "27,00",
+      "price": 27.00,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71eZutGO-IL.jpg",
       "id": "12"
     }

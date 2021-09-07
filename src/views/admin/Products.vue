@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
-    <ProductList />
     <ProductAdd />
+    <ProductList />
   </div>
 </template>
 

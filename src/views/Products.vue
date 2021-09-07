@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-wrap">
+  <div class="allCards d-flex flex-wrap">
     <div
       v-for="product in products"
       :key="product.id"
@@ -10,13 +10,9 @@
         <div class="col-md-4">
           <img :src="product.image" class="img-fluid rounded-start" />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 my-auto">
           <div class="card-body text-center">
             <h5 class="card-title">{{ product.title }}</h5>
-            <p class="card-title">
-              {{ product.author.firstName }} + {{ product.author.lastName }}
-            </p>
-            <p class="card-title">{{ product.year }}</p>
             <p class="card-title">{{ product.price }} €</p>
             <button @click="addToCart(product)" class="btn btn-primary">
               Ajouter au panier
@@ -100,5 +96,8 @@ export default {
 img {
   width: 200px;
   height: 250px;
+}
+.allCards {
+  justify-content: center;
 }
 </style>

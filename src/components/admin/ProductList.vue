@@ -2,7 +2,7 @@
   <div>
     <table class="table">
       <thead>
-        <tr class="table-primary">
+        <tr class="head">
           <th scope="col">#id</th>
           <th scope="col">Couverture</th>
           <th scope="col">Titre</th>
@@ -25,7 +25,7 @@
           <td>{{ product.author.firstName }} {{ product.author.lastName }}</td>
           <td>{{ product.publisher }}</td>
           <td>{{ product.year }}</td>
-          <td>{{ product.price }}</td>
+          <td>{{ product.price }} €</td>
         </tr>
       </tbody>
     </table>
@@ -50,5 +50,8 @@ export default {
 img {
   width: 50px;
   height: 80px;
+}
+.head {
+  background-color: #42b983;
 }
 </style>

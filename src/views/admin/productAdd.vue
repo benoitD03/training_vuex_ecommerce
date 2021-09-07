@@ -3,7 +3,7 @@
     
       <button
         type="button"
-        class="btn btn-primary"
+        class="btn addButton my-3"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
@@ -46,5 +46,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.addButton {
+  /* background: #42b983; */
+  background: #333;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.addButton:hover {
+  color: #42b983;
+}
 </style>

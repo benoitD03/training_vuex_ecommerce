@@ -41,5 +41,23 @@ export default {
             localStorage.setItem("vuex-training-cart", JSON.stringify(cart));
             resolve(cart);
         })
+    },
+    removeFromCart(product) {
+        return new Promise(resolve => {
+            //Dans le cas ou la quantité est supérieur à 1
+            const products = JSON.parse(localStorage.getItem("vuex-training-cart")).products;
+            const index = products.findIndex(item => item.id === product.id);
+            products[index].quantity -= 1;
+            //Dans le cas ou la nouvelle quantité est égale à 0
+            if (products[index].quantity === 0) {
+                products.splice(index, 1);
+            }
+
+            const cart = {
+                products : [ ...products]
+            }
+            localStorage.setItem("vuex-training-cart", JSON.stringify(cart));
+            resolve(cart);
+        })
     }
 }

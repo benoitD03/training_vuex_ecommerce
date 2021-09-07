@@ -1,7 +1,6 @@
 <template>
   <div>
     <h2>{{ oneProduct.title }}</h2>
-    <h3>{{ oneProduct.author.firstName }} {{ oneProduct.author.lastName }}</h3>
     <img :src="oneProduct.image" alt="product image">
     <p>Année de publication : {{ oneProduct.year }}</p>
     <p>Prix : {{ oneProduct.price }} €</p>
