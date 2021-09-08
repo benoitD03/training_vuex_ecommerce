@@ -34,6 +34,9 @@ export default new Vuex.Store({
     ADD_TO_CART(state, cartLocalStorage) {
       state.cart = cartLocalStorage;
     },
+    GET_CART(state, cartLocalStorage) {
+      state.cart = cartLocalStorage;
+    },
     REMOVE_FROM_CART(state, cartLocalStorage) {
       state.cart = cartLocalStorage;
     }
@@ -95,6 +98,9 @@ export default new Vuex.Store({
         .catch(err => {
          console.log(err);
         })
+    },
+    getCart({ commit }) {
+      commit("GET_CART", JSON.parse(localStorage.getItem("vuex-training-cart")));
     },
     removeFromCart({ commit }, product) {
       productService.removeFromCart(product)

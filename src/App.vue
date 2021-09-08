@@ -8,7 +8,7 @@
         <span>
           <router-link class="navLink" to="/cart">
             <i class="fas fa-shopping-cart"></i> Panier
-            {{ numberProductsInCart }}
+            ({{ numberProductsInCart }})
           </router-link>
         </span>
       </div>
@@ -20,6 +20,9 @@
 
 <script>
 export default {
+  created() {
+    this.$store.dispatch("getCart");
+  },
   computed: {
     numberProductsInCart() {
       return this.$store.getters.getNumberProductsInCart;
