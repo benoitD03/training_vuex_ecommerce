@@ -6,36 +6,34 @@
       <thead>
         <tr class="head">
           <th scope="col">Quantité</th>
-          <th scope="col">Couverture</th>
-          <th scope="col">Titre</th>
+          <th scope="col">Articles</th>
           <th scope="col">Prix</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="product in cart.products" :key="product.id">
-          <!-- <th scope="row">{{ product.id }}</th> -->
           <td>
             <div class="d-flex quantity mt-4">
               <button
                 @click="incrementQuantity(product)"
                 class="btn"
               >
-                <i class="fas fa-plus-circle"></i>
+                <i class="fas fa-plus-square fa-sm"></i>
               </button>
               <p class="my-auto">{{ product.quantity }}</p>
               <button
                 @click="decrementQuantity(product)"
                 class="btn"
               >
-                <i v-if="product.quantity > 1" class="fas fa-minus-circle"></i>
+                <i v-if="product.quantity > 1" class="fas fa-minus-square fa-sm"></i>
                 <i v-else class="fas fa-trash-alt"></i>
               </button>
             </div>
           </td>
           <td>
             <img :src="product.image" />
+            {{ product.title }}
           </td>
-          <td>{{ product.title }}</td>
           <td>{{ product.price }} €</td>
         </tr>
       </tbody>
@@ -43,17 +41,12 @@
     <h4 v-if="totalPrice === 0" class="text-center">
       Il n'y a aucun article dans votre panier
     </h4>
-    <h4 v-else class="text-center">Prix total ({{ numberProductsInCart }} articles) : {{ totalPrice }} €</h4>
+    <h4 v-else class="text-center my-5">Prix total ({{ numberProductsInCart }} articles) : {{ totalPrice }} €</h4>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      totalProductSum: 0,
-    };
-  },
   computed: {
     cart() {
       return this.$store.getters.getCart;
@@ -82,8 +75,8 @@ img {
   height: 90px;
 }
 .btn {
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background: #333;
   color: #f1f1f1;

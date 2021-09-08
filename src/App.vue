@@ -7,14 +7,20 @@
         <router-link class="navLink" to="/admin">Admin</router-link>
         <span>
           <router-link class="navLink" to="/cart">
-            <i class="fas fa-shopping-cart"></i> Panier
-            ({{ numberProductsInCart }})
+            <i class="fas fa-shopping-cart"></i> Panier ({{
+              numberProductsInCart
+            }})
           </router-link>
         </span>
       </div>
     </nav>
-
-    <router-view />
+    <transition
+      mode="out-in"
+      enter-active-class="animate__animated animate__fadeInDown"
+      leave-active-class="animate__animated animate__fadeOutDown"
+    >
+      <router-view />
+    </transition>
   </div>
 </template>
 
