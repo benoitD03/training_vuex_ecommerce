@@ -1,16 +1,24 @@
 <template>
   <div class="home">
-    <h1 class="text-center my-5">Notre sélection de livres</h1>
-    <Products />
+    <div class="row">
+      <div class="col-12 col-lg-9">
+        <Products />
+      </div>
+      <div class="col-12 col-lg-2 mt-5">
+        <TopProduct />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Products from './Products';
+import Products from "./Products";
+import TopProduct from "../components/topProduct";
 export default {
   name: "Home",
   components: {
-    Products
+    Products,
+    TopProduct,
   },
 };
 </script>

@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "TOUT JavaScript 2e edition",
+      "title": "TOUT JavaScript",
       "author": {
         "lastName": "Hondermarck",
         "firstName": "Olivier"
@@ -10,7 +10,8 @@
       "publisher": "Dunod",
       "year": 2019,
       "price": 29.9,
-      "image": "https://www.hachette.fr/sites/default/files/images/livres/couv/9782100814305-001-T.jpeg"
+      "image": "https://www.hachette.fr/sites/default/files/images/livres/couv/9782100814305-001-T.jpeg",
+      "top": true
     },
     {
       "id": 2,
@@ -82,7 +83,8 @@
       "year": "2016",
       "price": 22.5,
       "image": "https://images-na.ssl-images-amazon.com/images/I/41-O+AeCpsL._SX312_BO1,204,203,200_.jpg",
-      "id": "9"
+      "id": "9",
+      "top": true
     },
     {
       "title": "Good vibes good life",
@@ -94,7 +96,8 @@
       "year": "2020",
       "price": 19.9,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71xNxZZrVtL.jpg",
-      "id": "10"
+      "id": "10",
+      "top": true
     },
     {
       "title": "Une vie choisie",
