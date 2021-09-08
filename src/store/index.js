@@ -24,6 +24,13 @@ export default new Vuex.Store({
     CREATE_PRODUCT(state, product) {
       state.products = [product, ...state.products];
     },
+    MODIFY_PRODUCT(state, product) {
+      state.products = [product, ...state.products];
+    },
+    DELETE_PRODUCT(state, product) {
+      const index = state.products.findIndex(item => item.id === product.id);
+      state.products = state.products.splice(state.products[index], 1);
+    },
     ADD_TO_CART(state, cartLocalStorage) {
       state.cart = cartLocalStorage;
     },
@@ -65,6 +72,20 @@ export default new Vuex.Store({
           }
           commit("GET_ERROR", error);
         })
+    },
+    modifyProduct({ commit }, product) {
+      productService.modifyProduct(product, product.id)
+        .then(() => {
+          commit("MODIFY_PRODUCT", product)
+        })
+        .catch(err => console.log(err))
+    },
+    deleteProduct({ commit }, id) {
+      productService.deleteProduct(id)
+        .then(res => {
+          commit("DELETE_PRODUCT", res.data)
+        })
+        .catch(err => console.log(err))
     },
     addToCart({ commit }, product) {
       productService.addToCart(product)

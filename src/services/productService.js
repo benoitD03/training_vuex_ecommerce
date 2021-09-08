@@ -12,6 +12,12 @@ export default {
     createProduct(book) {
         return axios.post(`${baseUrl}/products`, book);
     },
+    modifyProduct(book, id) {
+        return axios.put(`${baseUrl}/products/${id}`, book);
+    },
+    deleteProduct(id) {
+        return axios.delete(`${baseUrl}/products/${id}`);
+    },
     addToCart(product) {
         return new Promise(resolve => {
             let cartInLocalStorage = localStorage.getItem("vuex-training-cart");
@@ -60,14 +66,4 @@ export default {
             resolve(cart);
         })
     },
-    // sumProductsInCart() {
-    //     return new Promise(resolve => {
-    //         const products = JSON.parse(localStorage.getItem("vuex-training-cart")).products;
-    //         const totalPriceArray = [...products.price * products.quantity];
-    //         console.log(totalPriceArray);
-    //         let totalPrice = totalPriceArray.reduce((acc, curr) => acc + curr);
-    //         console.log(totalPrice);
-    //         resolve(totalPrice);
-    //     })
-    // }
 }

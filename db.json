@@ -19,7 +19,7 @@
         "lastName": "Stefanov",
         "firstName": "Stoyan"
       },
-      "publisher": "O'Reilly Media",
+      "publisher": "O'Reilly Media aaa",
       "year": 2010,
       "price": 29.99,
       "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BSiphz7AL._SL200_.jpg"
@@ -61,18 +61,6 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/51I9naPg55L._SL200_.jpg"
     },
     {
-      "id": 6,
-      "title": "The JavaScript Ninja",
-      "author": {
-        "lastName": "Resig",
-        "firstName": "John"
-      },
-      "publisher": "Manning Publications",
-      "year": 2016,
-      "price": 44.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51sxvZlbH5L._SL200_.jpg"
-    },
-    {
       "id": 7,
       "title": "Clean Code",
       "author": {
@@ -92,7 +80,7 @@
       },
       "publisher": "Alisio",
       "year": "2016",
-      "price": 22.50,
+      "price": 22.5,
       "image": "https://images-na.ssl-images-amazon.com/images/I/41-O+AeCpsL._SX312_BO1,204,203,200_.jpg",
       "id": "9"
     },
@@ -104,7 +92,7 @@
       },
       "publisher": "Leduc",
       "year": "2020",
-      "price": 19.90,
+      "price": 19.9,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71xNxZZrVtL.jpg",
       "id": "10"
     },
@@ -128,7 +116,7 @@
       },
       "publisher": "Alisio",
       "year": "2010",
-      "price": 27.00,
+      "price": 27,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71eZutGO-IL.jpg",
       "id": "12"
     }

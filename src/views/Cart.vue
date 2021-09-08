@@ -25,7 +25,8 @@
         <p class="my-auto mx-5">{{ getTotalProductSum(product) }} €</p>
       <!-- </div> -->
     </div>
-    <h4 class="text-center">Prix total : {{ totalPrice }} €</h4>
+    <h4 v-if="totalPrice === 0" class="text-center">Il n'y a aucun article dans votre panier</h4>
+    <h4 v-else class="text-center">Prix total : {{ totalPrice }} €</h4>
   </div>
 </template>
 
