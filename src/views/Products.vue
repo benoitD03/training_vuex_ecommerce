@@ -44,7 +44,7 @@
             </button>
 
             <button @click="addToCart(product)" class="btn addCartBtn">
-              <i class="fas fa-shopping-cart"></i> Ajouter au panier
+              <i class="fas fa-cart-plus"></i> Ajouter au panier
             </button>
           </div>
           <div

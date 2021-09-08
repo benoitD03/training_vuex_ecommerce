@@ -55,7 +55,7 @@
                     ></button>
                   </div>
                   <div class="modal-body">
-                    <ModifyForm :oneProduct="oneProduct"/>
+                    <ModifyForm :oneProduct="oneProduct" />
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default {
     },
     oneProduct() {
       return this.$store.state.oneProduct;
-  },
+    },
   },
   methods: {
     deleteProduct(product) {
@@ -97,7 +97,7 @@ export default {
         window.location.href = "/admin";
       }
     },
-     getOneProduct(id) {
+    getOneProduct(id) {
       this.$store.dispatch("getOneProduct", id);
     },
   },
@@ -119,5 +119,8 @@ img {
 }
 .btnModify:hover {
   color: #42b983;
+}
+.modal-header {
+  background: #42b983;
 }
 </style>

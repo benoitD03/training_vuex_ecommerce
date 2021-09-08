@@ -24,7 +24,7 @@
     <label for="authorLastName" class="form-label">Nom Auteur</label>
     <input type="text" class="form-control" id="authorLastName" v-model="book.author.lastName" required>
   </div>
-  
+
   <div class="mb-3">
     <label for="publisher" class="form-label">Edition</label>
     <input type="text" class="form-control" id="publisher" v-model="book.publisher">
@@ -38,6 +38,11 @@
   <div class="mb-3">
     <label for="price" class="form-label">Prix</label>
     <input type="number" class="form-control" id="price" v-model="book.price" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <textarea class="form-control" id="description" v-model="book.description" required />
   </div>
  
  
@@ -60,6 +65,7 @@ export default {
         year: "",
         price: "",
         image: "",
+        description: ""
       },
     };
   },

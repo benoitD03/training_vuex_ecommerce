@@ -11,19 +11,22 @@
       "year": 2019,
       "price": 29.9,
       "image": "https://www.hachette.fr/sites/default/files/images/livres/couv/9782100814305-001-T.jpeg",
+      "description": "Ce livre s’adresse à tous les développeurs web, qu’ils soient  débutants ou avancés. Le JavaScript sert avant tout à rendre les pages web interactives  et dynamiques du côté de l’utilisateur, mais il est  également de plus en plus utilisé pour créer des applications  complètes, y compris côté serveur. La première partie de ce livre couvre l’ensemble  des fonctionnalités du JavaScript (version  ECMAScript 6 jusque ES2020) et passe en revue les  bonnes pratiques de programmation. La deuxième partie porte sur l’interactivité avec  les utilisateurs (interfaces, formulaires, gestion  des erreurs, appels asynchrones, géolocalisation,  notifications, dessin…). La troisième partie permet de s’initier aux aspects  les plus avancés du JavaScript tels que Node.js,  React, Vue.js, jQuery ou les Web Workers.",
       "top": true
     },
     {
       "id": 2,
-      "title": "JavaScript Patterns",
+      "title": "Miracle Morning",
       "author": {
-        "lastName": "Stefanov",
-        "firstName": "Stoyan"
+        "lastName": "Elrod",
+        "firstName": "Hal"
       },
-      "publisher": "O'Reilly Media aaa",
-      "year": 2010,
-      "price": 29.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BSiphz7AL._SL200_.jpg"
+      "publisher": "First editions",
+      "year": 2016,
+      "price": 17,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61WORhxGMfL.jpg",
+      "description": "Quel est le point commun entre Richard Branson, patron de Virgin, Anna Wintour, directrice du Vogue US, Tim Cook (Apple), Marissa Mayer (Yahoo !) ? Le succès ? Certainement. Un emploi du temps de ministre ? Aussi. Mais surtout un secret jusqu'ici bien gardé, et lumineux une fois révélé. Toutes ces personnalités ont l'habitude de se lever avant l'aube, et de démarrer leur journée par une à deux heures rien qu'à eux. Deux heures pour faire du sport, méditer, se cultiver, mettre en route leur journée... Devenir meilleur, en somme ! Se lever tôt, d'accord, mais comment et pour quoi faire ? Avant 8 heures impérativement, et d'un bond, sans se laisser la possibilité de tergiverser. En sachant très clairement comment remplir cette heure ou ces deux heures que l'on s'offre, comme un supplément de vie.",
+      "top": true
     },
     {
       "id": 3,
@@ -35,31 +38,34 @@
       "publisher": "O'Reilly Media",
       "year": 2008,
       "price": 29.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SL200_.jpg"
+      "image": "https://m.media-amazon.com/images/I/511j6cza5bL.jpg",
+      "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole--a subset you can use to create truly extensible and efficient code."
     },
     {
       "id": 4,
-      "title": "JavaScript Design Patterns",
+      "title": "De zéro à un",
       "author": {
-        "lastName": "Osmani",
-        "firstName": "Addy"
+        "lastName": "Thiel",
+        "firstName": "Peter"
       },
-      "publisher": "O'Reilly Media",
-      "year": 2012,
-      "price": 44.99,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51jEMnP6UGL._SL200_.jpg"
+      "publisher": "JC Lattès",
+      "year": 2016,
+      "price": 18.5,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71C5xyCXQaL.jpg",
+      "description": "Écrit à partir de cours donnés à Stanford, Zéro à Un propose une vision radicale et nouvelle sur la conception et le management des start-ups. Quelques uns de ses principes  : Le mythe du prochain Facebook, Google… Chaque instant en business n’arrive qu’une fois. Le prochain Bill Gates ne construira pas un système d’exploitation, Sergueï Brin ne fera pas un moteur de recherche et le prochain Zuckerberg ne créera pas un réseau social. Si vous les copiez c’est que vous n’avez rien à offrir de mieux. Quelle vérité êtes-vous seul à posséder, quelle est la société que personne ne construit  ? Vive le monopole. La compétition et le capitalisme sont à l’opposé…"
     },
     {
       "id": 5,
-      "title": "Eloquent JavaScript",
+      "title": "Le marketing digital",
       "author": {
-        "lastName": "Haverbeke",
-        "firstName": "Marijn"
+        "lastName": "De Montaigu",
+        "firstName": "Grégoire"
       },
-      "publisher": "No Starch Press",
+      "publisher": "Eyrolles",
       "year": 2018,
-      "price": 39.95,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/51I9naPg55L._SL200_.jpg"
+      "price": 28,
+      "image": "https://servimg.eyrolles.com/static/media/0656/9782212570656_internet_h1400.jpg",
+      "description": "En quelques années, le digital a non seulement bouleversé nos pratiques, mais le marketing tout entier... et ce ne n'est pas terminé ! Comment s'y retrouver dans la jungle des outils et des notions (SEO, SEA, display marketing, inbound marketing, data marketing, stratégie social media...) ? Comment élaborer une stratégie gagnante ?"
     },
     {
       "id": 7,
@@ -71,7 +77,8 @@
       "publisher": "Prentice Hall",
       "year": 2008,
       "price": 34.47,
-      "image": "https://images-na.ssl-images-amazon.com/images/I/41TINACY3hL._SL200_.jpg"
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81jRujEs6uL.jpg",
+      "description": "Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn’t have to be that way."
     },
     {
       "title": "Deep Work",
@@ -84,6 +91,7 @@
       "price": 22.5,
       "image": "https://images-na.ssl-images-amazon.com/images/I/41-O+AeCpsL._SX312_BO1,204,203,200_.jpg",
       "id": "9",
+      "description": "Le travail en profondeur, ou deep work, désigne une activité professionnelle menée dans un état de concentration absolue qui pousse nos capacités cognitives jusqu'à leurs limites. Ces efforts créent de la valeur, affinent nos compétences et sont difficiles à reproduire. En d'autres termes, le travail en profondeur est comme un superpouvoir dans notre économie toujours plus concurrentielle. Et pourtant… nous avons, pour la plupart, perdu cette capacité. S'appuyant sur des modèles de réussite historiques et contemporains, Cal Newport nous explique pourquoi il est si crucial de réapprendre à se concentrer intensément dans un monde débordant d'informations et de distractions. Il nous enseigne 4 principes destinés à rééduquer notre esprit et à replacer le travail en profondeur, seule source de sens et de valeur, au coeur de notre vie professionnelle.",
       "top": true
     },
     {
@@ -97,6 +105,7 @@
       "price": 19.9,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71xNxZZrVtL.jpg",
       "id": "10",
+      "description": "ATTIREZ L'ABONDANCE DANS TOUS LES DOMAINES DE VOTRE VIE !",
       "top": true
     },
     {
@@ -109,7 +118,8 @@
       "year": "2018",
       "price": 18,
       "image": "https://images-na.ssl-images-amazon.com/images/I/81FJuBqBAWL.jpg",
-      "id": "11"
+      "id": "11",
+      "description": "« Je ne suis pas un très bon programmeur, j’ai trop d’idées, je vais trop vite, je ne suis pas concentré, pas efficace et pas organisé ». Ainsi se décrit celui qui a pourtant fondé le site de rencontres le plus célèbre d’Europe, Meetic, et que ses jeunes admirateurs surnomment le serial entrepreneur. Il est vrai que la réussite de Marc Simoncini n’est pas une success story traditionnelle  : elle repose essentiellement sur son incroyable culot, sa liberté de ton et de jugement, son esprit visionnaire et son inconscience providentielle."
     },
     {
       "title": "Le personal MBA",
@@ -121,8 +131,34 @@
       "year": "2010",
       "price": 27,
       "image": "https://images-na.ssl-images-amazon.com/images/I/71eZutGO-IL.jpg",
-      "id": "12"
+      "id": "12",
+      "description": "Obtenir un MBA est cher et pas toujours rentable. C'est ce constat qui a poussé Josh Kaufman à créer le site web PersonalMBA.com (devenu rapidement une référence) comme une alternative possible aux formations proposées dans les écoles de commerce. Sur son site, il a partagé sa liste de lecture des meilleurs livres de business à dévorer et il a expliqué de manière simple les concepts et les principes à connaître pour réussir sa carrière ou son entreprise."
+    },
+    {
+      "id": 13,
+      "title": "La pensée positive",
+      "author": {
+        "lastName": "Ebenstein",
+        "firstName": "Annika"
+      },
+      "publisher": "Empire of books",
+      "year": 2021,
+      "price": 14.9,
+      "image": "https://m.media-amazon.com/images/I/41i1PMAAu-L.jpg",
+      "description": "Souhaitez-vous échapper à vos spirales de pensées négatives et enfin mener une vie sans soucis et pleine d'optimisme? Aimeriez-vous mieux contrôler vos émotions et devenir ainsi plus calme et plus heureux? Vous vous retrouvez face à une crise personnelle et vous ne savez pas comment la surmonter?"
+    },
+    {
+      "id": 14,
+      "title": "The One Thing",
+      "author": {
+        "lastName": "Keller",
+        "firstName": "Gary"
+      },
+      "publisher": "Alisio",
+      "year": 2020,
+      "price": 20,
+      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/3d/4a/af/11487805/1507-1/tsp20210706080312/The-one-thing.jpg",
+      "description": "Notre attention est sollicitée en permanence. Or chaque projet demande de la concentration, notre journée n'est pas extensible et parfois nous avons l'impression de marcher sur place en voulant tout faire en même temps. THE ONE THING, la méthode des pros, a aidé des millions de personnes dans le monde entier à se concentrer sur ce qui est primordial, pour une efficacité hors normes et une lucidité qui permet de mieux profiter de la vie."
     }
-  ],
-  "cart": []
+  ]
 }
