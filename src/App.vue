@@ -16,11 +16,17 @@
     </nav>
     <transition
       mode="out-in"
-      enter-active-class="animate__animated animate__fadeInDown"
-      leave-active-class="animate__animated animate__fadeOutDown"
+      enter-active-class="animate__animated animate__fadeIn"
+      leave-active-class="animate__animated animate__fadeOut"
     >
       <router-view />
     </transition>
+    <footer class="bg-dark text-light text-center text-lg-start">
+      <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021
+        <a class="text-light" href="https://benoit-durand.fr" target="_blank">Benoit Durand</a>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -53,5 +59,8 @@ span {
 }
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+a {
+  text-decoration: none;
 }
 </style>
