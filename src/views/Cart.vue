@@ -38,7 +38,7 @@
         </tr>
       </tbody>
     </table>
-    <h4 v-if="totalPrice === 0" class="text-center">
+    <h4 v-if="totalPrice == 0" class="text-center my-5">
       Il n'y a aucun article dans votre panier
     </h4>
     <h4 v-else class="text-center my-5">Prix total ({{ numberProductsInCart }} articles) : {{ totalPrice }} €</h4>
